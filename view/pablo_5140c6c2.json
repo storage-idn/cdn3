@@ -1,0 +1,26 @@
+{
+  "Image": "ghcr.io/parkervcp/games:samp",
+  "Cmd": "./samp03svr",
+  "Env": [
+    "START=./samp03svr"
+  ],
+  "Scripts": {
+    "Install": [
+      {
+        "Uri": "http://sa-mp.co.id/files/samp037svr_R2-2-1.tar.gz",
+        "Path": "samp.tar.gz"
+      },
+      {
+        "Uri": "https://raw.githubusercontent.com/ma4z-sys/images/main/samp/install.sh",
+        "Path": "install.sh"
+      }
+    ]
+  },
+  "Name": "🌩️ SA-MP Linux (PabloStore)",
+  "Description": "San Andreas Multiplayer (SA-MP) dedicated Linux image with automatic setup and startup. Created for GalaxyHost/Skyport by PabloStore.",
+  "Author": "admin@pablocloud.biz.id",
+  "AuthorName": "PabloStore",
+  "Meta": {
+    "Version": "Skyport Images v2"
+  }
+}
